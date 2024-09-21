@@ -1,0 +1,33 @@
+# Node.js / NPM
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# NPM Workspaces
+**/node_modules/
+.pnp/
+.pnp.js
+
+# TypeScript
+*.tsbuildinfo
+*.tscache/
+
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+.env
+.env.local

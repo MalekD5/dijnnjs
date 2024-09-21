@@ -1,0 +1,36 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": {
+				"all": true
+			},
+			"style": {
+				"useNamingConvention": {
+					"level": "error",
+					"fix": "safe",
+					"options": {
+						"strictCase": false,
+						"conventions": [{
+							"formats": ["camelCase"],
+							"selector": {
+								"kind": "variable",
+								"scope": "any"
+							}
+						}]
+					}
+				}
+			}
+		}
+	},
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	}
+}
